@@ -2,4 +2,26 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  text-align: center
+}
+
+nav > a {
+  padding: 0px 10px; /*This sets the top and bottom padding to 0px, and the left and right padding to 10px.*/
+  background-color: rgb(187, 183, 183)
+}
+
+figcaption {
+  font-size: .75em;
+}
+
+section > p {
+  width: 800px;
+  margin: auto;
+  padding: 10px
+}
+
+section > div {
+  float: left;
+  width: 25%;
+  background-color: red
 }
